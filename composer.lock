@@ -4,74 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d16245d1ee4773e33d29548d51763a0",
+    "content-hash": "9ec8f66d56b8a446cf3295fe1f80aa60",
     "packages": [
         {
-            "name": "vlucas/phpdotenv",
-            "version": "v2.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
-                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8 || ^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Dotenv\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause-Attribution"
-            ],
-            "authors": [
-                {
-                    "name": "Vance Lucas",
-                    "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com"
-                }
-            ],
-            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
-            "keywords": [
-                "dotenv",
-                "env",
-                "environment"
-            ],
-            "time": "2016-09-01T10:05:43+00:00"
-        },
-        {
             "name": "xsat/nen",
-            "version": "v1.1.2",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xsat/nen.git",
-                "reference": "ec53862bbd5ff21b3567d8fc3cf220c1c3fe1d71"
+                "reference": "2b04a1e00d242af92110ac026d7017f30ee74e1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xsat/nen/zipball/ec53862bbd5ff21b3567d8fc3cf220c1c3fe1d71",
-                "reference": "ec53862bbd5ff21b3567d8fc3cf220c1c3fe1d71",
+                "url": "https://api.github.com/repos/xsat/nen/zipball/2b04a1e00d242af92110ac026d7017f30ee74e1d",
+                "reference": "2b04a1e00d242af92110ac026d7017f30ee74e1d",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.2"
             },
             "type": "library",
             "autoload": {
@@ -94,7 +47,7 @@
                 "issues": "https://github.com/xsat/nen/issues?state=open",
                 "source": "https://github.com/xsat/nen"
             },
-            "time": "2017-06-05T09:25:02+00:00"
+            "time": "2017-07-09T15:09:41+00:00"
         }
     ],
     "packages-dev": [],
